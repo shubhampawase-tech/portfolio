@@ -10030,22 +10030,21 @@ h6,
   list-style-type: none;
 }
 
-body {
+/* GLOBAL RESET */
+* {
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    color: #e2e8f0;
-    background: linear-gradient(135deg, #0f172a, #1e293b, #2563eb) !important;
-    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* HERO SECTION */
+/* BODY BACKGROUND */
+body {
+    background: #f8fafc !important;
+    color: #334155;
+}
+
+/* HERO SECTION (HOME) */
 .hero-section {
     min-height: 100vh;
-    background: transparent;
-}
-
-/* NAVBAR GLASS EFFECT */
-.navbar {
-    background: rgba(15, 23, 42, 0.85) !important;
-    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg, #ffffff, #e2e8f0) !important;
 }
