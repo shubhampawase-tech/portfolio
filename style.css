@@ -9986,3 +9986,11 @@ h6,
 .border.rounded.p-4.h-100.shadow-sm {
     background-color: #d1ecf1 !important; /* Light Blue */
 }
+
+
+background-color: #fce4ec !important; /* Light Pink */
+background-color: #fff3cd !important; /* Light Yellow */
+background-color: #d4edda !important; /* Light Green */
+background-color: #e8eaf6 !important; /* Light Purple */
+background-color: #1e293b !important; /* Dark Blue */
+color: white !important;
