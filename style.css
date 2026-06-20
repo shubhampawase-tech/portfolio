@@ -10029,3 +10029,23 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #e2e8f0;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #2563eb) !important;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+.hero-section {
+    min-height: 100vh;
+    background: transparent;
+}
+
+/* NAVBAR GLASS EFFECT */
+.navbar {
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(10px);
+}
