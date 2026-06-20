@@ -9988,9 +9988,19 @@ h6,
 }
 
 
-background-color: #fce4ec !important; /* Light Pink */
-background-color: #fff3cd !important; /* Light Yellow */
-background-color: #d4edda !important; /* Light Green */
-background-color: #e8eaf6 !important; /* Light Purple */
-background-color: #1e293b !important; /* Dark Blue */
-color: white !important;
+/* Professional Highlights Cards */
+#testimonial .border.rounded.p-4.text-center.shadow-sm {
+    background-color: #d1ecf1 !important; /* Light Blue */
+    border: none !important;
+    border-radius: 15px !important;
+}
+
+#testimonial .border.rounded.p-4.text-center.shadow-sm {
+    background-color: #d1ecf1;
+    transition: all 0.3s ease;
+}
+
+#testimonial .border.rounded.p-4.text-center.shadow-sm:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
