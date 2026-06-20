@@ -16,10 +16,9 @@
   --warning: #F59E0B;
   --danger: #EF4444;
 
-  /* Background Colors */
-
+  /* Base */
   --white: #FFFFFF;
- 
+  --black: #0F172A;
 
   /* Extra Colors */
   --blue: #2563EB;
@@ -33,6 +32,13 @@
   --teal: #14B8A6;
   --cyan: #06B6D4;
 
+  /* Gray Shades */
+  --gray: #94A3B8;
+  --gray-dark: #475569;
+
+  /* Background */
+  --light: #F8FAFC;
+}
   /* Gray Shades */
   --gray: #94A3B8;
   --gray-dark: #475569;
