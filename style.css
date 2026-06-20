@@ -5,7 +5,10 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+body {
+    background-color: #ffffff !important;
+    color: #000000;
+}
 
 :root {
   /* Main Theme Colors */
