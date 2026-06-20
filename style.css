@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  color: #f9e10d;
   text-align: left;
   background-color: #65a5ad;
 }
@@ -9521,11 +9521,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #42474d  !important;
 }
 
 .text-primary {
-  color: #fff !important;
+  color: #e9d526  !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9533,7 +9533,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #FF5722 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
