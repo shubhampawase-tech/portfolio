@@ -5151,7 +5151,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   overflow: hidden;
   line-height: 0;
   font-size: 0.75rem;
-  background-color: #e9ecef;
+  background-color: #dd153c75;
   border-radius: 0.25rem;
 }
 
