@@ -88,11 +88,17 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
-  color: #64748B;
+  color: #E2E8F0;
   text-align: left;
-  background-color: #F8FAFC;
   overflow-x: hidden;
+
+  /* Modern background */
+  background: linear-gradient(135deg, #0F172A, #1E293B, #2563EB);
+  background-size: 300% 300%;
+  animation: bgMove 12s ease infinite;
 }
+
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -641,18 +647,17 @@ pre code {
   overflow-y: scroll;
 }
 
-.container,
-.container-fluid,
-.container-sm,
-.container-md,
-.container-lg,
-.container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 
 @media (min-width: 576px) {
   .container, .container-sm {
