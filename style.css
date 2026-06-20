@@ -6,12 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-/* GLOBAL BACKGROUND RESET */
-body {
-    margin: 0 !important;
-    background: #f8fafc !important;
-    color: #334155 !important;
-}
+
 :root {
   /* Main Theme Colors */
   --primary: #2563EB;
