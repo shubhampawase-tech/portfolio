@@ -9982,3 +9982,7 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.border.rounded.p-4.h-100.shadow-sm {
+    background-color: #d1ecf1 !important; /* Light Blue */
+}
