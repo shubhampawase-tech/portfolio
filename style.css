@@ -9521,11 +9521,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #6c757d !important;
+  color: #101010 !important;
 }
 
 .text-primary {
-  color: #FF5722  !important;
+  color: #0bce9ae8   !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
