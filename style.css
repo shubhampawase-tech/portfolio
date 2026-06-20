@@ -10029,22 +10029,3 @@ h6,
   padding: 0;
   list-style-type: none;
 }
-
-/* GLOBAL RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BODY BACKGROUND */
-body {
-    background: #f8fafc !important;
-    color: #334155;
-}
-
-/* HERO SECTION (HOME) */
-.hero-section {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #ffffff, #e2e8f0) !important;
-}
