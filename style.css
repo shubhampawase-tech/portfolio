@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #f9e10d;
+  color: #6c757d;
   text-align: left;
-  background-color: #17a2b8;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #0000;
+  color: #343a40;
 }
 
 h1, .h1 {
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color:#4f1f65 !important;
+  background-color: #0BCEAF !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6483,7 +6483,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #481651 !important;
+  border-color: #0BCEAF !important;
 }
 
 .border-secondary {
@@ -9521,11 +9521,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #42474d  !important;
+  color: #fff !important;
 }
 
 .text-primary {
-  color: #e9d526  !important;
+  color: #0BCEAF !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9533,7 +9533,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #FF5722 !important;
+  color: #6c757d !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9981,99 +9981,4 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-/* ==========================================
-   PROFESSIONAL DATA ENGINEER THEME
-========================================== */
-
-body {
-    background: #0F172A;
-    color: #E2E8F0;
-}
-
-.navbar {
-    background: #111827 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #E5E7EB !important;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #38BDF8 !important;
-}
-
-.display-1 {
-    color: rgba(255,255,255,0.08) !important;
-    font-weight: 900;
-}
-
-.position-absolute.text-uppercase.text-primary {
-    color: #38BDF8 !important;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    color: #FFFFFF;
-}
-
-p {
-    color: #CBD5E1;
-}
-
-.btn-outline-primary {
-    border: 2px solid #38BDF8;
-    color: #38BDF8;
-}
-
-.btn-outline-primary:hover {
-    background: #38BDF8;
-    color: #ffffff;
-}
-
-.progress {
-    background: #1E293B;
-}
-
-.progress-bar {
-    background: #38BDF8 !important;
-}
-
-.skill,
-.service-item,
-.portfolio-item,
-.contact-form,
-.card {
-    background: #1E293B;
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255,.08);
-    box-shadow: 0 10px 30px rgba(0,0,0,.3);
-}
-
-.footer {
-    background: #111827;
-}
-
-img {
-    border-radius: 15px;
-}
-
-/* About section */
-#about {
-    background: #0F172A;
-}
-
-/* Skills section */
-#skill {
-    background: #111827;
-}
-
-/* Portfolio section */
-#portfolio {
-    background: #0F172A;
-}
-
-/* Contact section */
-#contact {
-    background: #111827;
 }
